@@ -13,6 +13,7 @@
 		FA77B9002B079F4900319711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA77B8FE2B079F4900319711 /* Main.storyboard */; };
 		FA77B9022B079F4B00319711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA77B9012B079F4B00319711 /* Assets.xcassets */; };
 		FA77B9052B079F4B00319711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA77B9032B079F4B00319711 /* LaunchScreen.storyboard */; };
+		FA77B90F2B07A4A200319711 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FA77B90E2B07A4A200319711 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FA77B9012B079F4B00319711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA77B9042B079F4B00319711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA77B9062B079F4B00319711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA77B90E2B07A4A200319711 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				FA77B8FE2B079F4900319711 /* Main.storyboard */,
 				FA77B9012B079F4B00319711 /* Assets.xcassets */,
 				FA77B9032B079F4B00319711 /* LaunchScreen.storyboard */,
+				FA77B90E2B07A4A200319711 /* MobileNetV2.mlmodel */,
 				FA77B9062B079F4B00319711 /* Info.plist */,
 			);
 			path = ImageRecognitionWithML;
@@ -140,6 +143,7 @@
 			files = (
 				FA77B8FD2B079F4900319711 /* ViewController.swift in Sources */,
 				FA77B8F92B079F4900319711 /* AppDelegate.swift in Sources */,
+				FA77B90F2B07A4A200319711 /* MobileNetV2.mlmodel in Sources */,
 				FA77B8FB2B079F4900319711 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
